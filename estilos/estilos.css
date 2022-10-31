@@ -4,7 +4,7 @@ header,main,footer{
 .botonera {
     background-color: bisque;
     border: 1px solid black;
-    height: 100px;;
+    height: 150px;;
     border-radius: 8px;
     display: flex;
     flex-direction: row;
@@ -14,6 +14,7 @@ header,main,footer{
 }
 
 header img {
+    margin-bottom: 10px;
     width: 200px;
     height: 200px;
 }
@@ -49,7 +50,7 @@ header img {
 }
 
 .info{
-    height: 50px;
+    height: 70px;
     background-color: bisque;
     border: 1px solid black;
     display: flex;
@@ -58,6 +59,7 @@ header img {
 }
 
 .redes img {
+    margin-top: 20px;
     height: 25px;
 }
 
@@ -277,4 +279,5 @@ textarea {
 
 footer p{
     text-align: center;
+    margin-top: 20px;
 }
