@@ -1,0 +1,280 @@
+header,main,footer{
+    width: auto;
+}
+.botonera {
+    background-color: bisque;
+    border: 1px solid black;
+    height: 100px;;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+.botonera ul {
+	padding: 10px;
+	list-style-type: 0;
+}
+
+.botonera ul li {
+	display: inline;
+}
+
+.botonera ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	border: 1px solid;
+	font-size: large;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.5), -3px -3px 4px rgba(0,0,0,0.5);
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.principal1 {
+    height: 650px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-image: url(https://apive.org/wp-content/uploads/2018/06/funcio%CC%81n-del-color-en-la-arquitectura.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.info{
+    height: 50px;
+    background-color: bisque;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.redes img {
+    height: 25px;
+}
+
+.info ul {
+	list-style-type: 0;
+}
+
+.info ul li {
+	display: inline;
+}
+
+.info ul li a {
+	display: inline;
+	text-decoration: none;
+}
+
+.principal1 ul {
+    list-style-type: 0;
+}
+
+.principal1 ul li {
+	display: inline;
+}
+
+.principal1 ul li a {
+	display: inline;
+	text-decoration: none;
+    border: 1px solid;
+	font-size: xx-large;
+    border-radius: 4px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;	
+}
+
+.principal2 {
+    height: 500px;
+    background-color: beige;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+    border: 1px solid black;
+    border-radius: 4px;    
+}
+
+.principal2 h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.principal2 hr {
+    margin-left: 03px;
+    width: 200px;
+}
+
+.principal2 p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.principal3 {
+    height: auto;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;  
+}
+
+.imagen1 img {
+   width: 400px;
+   height: 300px;
+   margin-top: 5px;
+}
+
+.lista1 h2{
+    margin-left: 200px;
+}
+ 
+.imagen2 img {
+    width: 400px;
+    height: 300px;
+ }
+
+ .imagen3 img {
+    width: 400px;
+    height: 300px;
+ }
+
+ .proyecto h2{
+    margin-left: 200px;
+}
+
+.proyecto p {
+    margin-right: 50px;
+}
+ 
+.direccion h2{
+    margin-left: 200px;
+}
+ 
+.direccion p{
+    margin-left: 50px;
+} 
+
+.imagen4 img {
+    width: 400px;
+    height: 300px;
+ }
+
+ .construccion p{
+    margin-right: 50px;
+ }
+
+ .construccion h2{
+    margin-left: 200px;
+ }
+
+ .principal4 {
+    height: 900px;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;  
+}
+
+.principal4 img{
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+}
+
+.principal4 p{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.imagen{
+    margin-top: 10px;
+}
+
+.btedit {
+    text-decoration: none;
+    font-weight: 600px;
+    font-size: 20px;
+    color:dimgray;
+    padding:5px;
+    background-color:floralwhite;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35px;
+    margin-left: 100px;
+}
+
+.principal5 {
+    height: 500px;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;  
+}
+
+.contacto {
+    margin-bottom: 145px;
+}
+
+.linea1 {
+    width: 75px;
+    margin-right:300px;
+
+}
+
+input {
+	width: 350px;
+	padding: 10px;
+	margin: 10px;
+	display: block;
+	box-sizing: border-box;
+}
+
+textarea {
+	width: 350px;
+	padding: 10px;
+	margin: 10px;
+	display: block;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+    background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+footer p{
+    text-align: center;
+}
