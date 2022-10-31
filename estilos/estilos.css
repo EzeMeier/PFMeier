@@ -50,7 +50,7 @@ header img {
 }
 
 .info{
-    height: 70px;
+    height: 150px;
     background-color: bisque;
     border: 1px solid black;
     display: flex;
