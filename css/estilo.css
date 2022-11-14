@@ -1,0 +1,288 @@
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.float :hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
+}
+.float .my-float {
+  margin-top: 16px;
+}
+
+header {
+  width: auto;
+}
+header img {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+}
+header .botonera {
+  background-color: bisque;
+  border: 1px solid black;
+  height: 150px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header .botonera ul {
+  padding: 10px;
+  list-style-type: 0;
+}
+header .botonera li {
+  display: inline;
+}
+header .botonera a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 1px solid;
+  font-size: large;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5), -3px -3px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.principal1 {
+  height: 650px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-image: url(https://apive.org/wp-content/uploads/2018/06/funcio%CC%81n-del-color-en-la-arquitectura.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.principal1 h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+.principal1 ul {
+  list-style-type: 0;
+}
+.principal1 li {
+  display: inline;
+}
+.principal1 a {
+  display: inline;
+  text-decoration: none;
+  border: 1px solid;
+  font-size: xx-large;
+  border-radius: 4px;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.principal2 {
+  height: 625px;
+  background-color: beige;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 50px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.principal2 hr {
+  margin-left: 3px;
+  width: 200px;
+}
+.principal2 p {
+  font-family: "Times New Roman", Times, serif;
+}
+.principal2 .accordion-button {
+  background-color: #F5F4F4;
+}
+.principal2 .accordion-item {
+  background-color: #F5F4F4;
+  margin-right: 50px;
+}
+.principal2 .accordion-item h1 {
+  text-align: center;
+}
+.principal2 .link {
+  color: white;
+}
+
+.principal3 {
+  height: auto;
+  background-color: beige;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.principal3 .imagen1 img {
+  width: 400px;
+  height: 300px;
+  margin-top: 5px;
+}
+.principal3 .lista1 h2 {
+  margin-left: 150px;
+}
+.principal3 .imagen2 img {
+  width: 400px;
+  height: 300px;
+}
+.principal3 .imagen3 img {
+  width: 400px;
+  height: 300px;
+}
+.principal3 .proyecto h2 {
+  margin-left: 150px;
+}
+.principal3 p {
+  margin-right: 50px;
+}
+.principal3 .direccion h2 {
+  margin-left: 150px;
+}
+.principal3 p {
+  margin-left: 50px;
+}
+.principal3 .imagen4 img {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 5px;
+}
+.principal3 .construccion p {
+  margin-right: 50px;
+}
+.principal3 h1 {
+  font-size: xx-large;
+  margin-left: 150px;
+}
+.principal3 h2 {
+  margin-left: 150px;
+}
+
+.principal4 {
+  height: auto;
+  background-color: beige;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+.principal4 img {
+  width: 200px;
+  height: 200px;
+  margin-top: 5px;
+}
+.principal4 p {
+  font-size: x-large;
+  text-decoration: underline;
+}
+.principal4 .imagen {
+  margin-top: 10px;
+}
+.principal4 .btedit {
+  text-decoration: none;
+  font-weight: 600px;
+  font-size: 20px;
+  color: dimgray;
+  padding: 5px;
+  background-color: floralwhite;
+  border-color: #d8d8d8;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 35px;
+  margin-left: 100px;
+}
+
+.principal5 {
+  height: auto;
+  background-color: beige;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.principal5 .contacto {
+  margin-bottom: 145px;
+}
+.principal5 .linea1 {
+  width: 75px;
+  margin-right: 300px;
+}
+.principal5 input {
+  width: 350px;
+  padding: 10px;
+  margin: 10px;
+  display: block;
+  box-sizing: border-box;
+}
+.principal5 textarea {
+  width: 350px;
+  padding: 10px;
+  margin: 10px;
+  display: block;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+.principal4 h1 {
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+footer {
+  width: auto;
+}
+footer .info {
+  height: auto;
+  background-color: bisque;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+}
+footer p {
+  text-align: center;
+  margin-top: 20px;
+}
+footer .redes img {
+  margin-top: 20px;
+  height: 25px;
+}
+footer ul {
+  list-style-type: 0;
+}
+footer li {
+  display: inline;
+}
+footer a {
+  display: inline;
+  text-decoration: none;
+}
+
+@media (min-width: 350px) and (max-width: 400px) {
+  header .botonera {
+    height: auto;
+  }
+  .principal4 {
+    height: auto;
+  }
+  .contacto {
+    font-size: small;
+    margin-left: 50px;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
