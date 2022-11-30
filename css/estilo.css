@@ -22,7 +22,7 @@
 }
 
 header {
-  width: auto;
+  width: 100%;
 }
 header img {
   margin-bottom: 10px;
@@ -59,36 +59,34 @@ header .botonera a {
 }
 
 .principal1 {
-  height: 650px;
+  height: auto;
+  width: 100;
+  background-color: beige;
   border: 1px solid black;
   border-radius: 4px;
-  background-image: url(https://apive.org/wp-content/uploads/2018/06/funcio%CC%81n-del-color-en-la-arquitectura.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 .principal1 h1 {
   text-align: center;
-  text-decoration: underline;
 }
 .principal1 ul {
   list-style-type: 0;
 }
 .principal1 li {
   display: inline;
+  border: 1px solid;
+  border-radius: 4px;
+  font-size: xx-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .principal1 a {
   display: inline;
   text-decoration: none;
-  border: 1px solid;
-  font-size: xx-large;
-  border-radius: 4px;
   color: black;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .principal2 {
   height: 625px;
+  width: 100%;
   background-color: beige;
   display: flex;
   justify-content: flex-start;
@@ -120,12 +118,15 @@ header .botonera a {
 
 .principal3 {
   height: auto;
+  width: 100%;
   background-color: beige;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
   align-items: center;
+  border: 1px solid black;
+  border-radius: 4px;
 }
 .principal3 .imagen1 img {
   width: 400px;
@@ -173,11 +174,14 @@ header .botonera a {
 
 .principal4 {
   height: auto;
+  width: 100%;
   background-color: beige;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
+  border: 1px solid black;
+  border-radius: 4px;
 }
 .principal4 img {
   width: 200px;
@@ -196,7 +200,7 @@ header .botonera a {
   font-weight: 600px;
   font-size: 20px;
   color: dimgray;
-  padding: 5px;
+  padding: 3px;
   background-color: floralwhite;
   border-color: #d8d8d8;
   border-width: 3px;
@@ -207,12 +211,15 @@ header .botonera a {
 
 .principal5 {
   height: auto;
+  width: 100%;
   background-color: beige;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
   align-items: center;
+  border: 1px solid black;
+  border-radius: 4px;
 }
 .principal5 .contacto {
   margin-bottom: 145px;
@@ -272,7 +279,7 @@ footer a {
   text-decoration: none;
 }
 
-@media (min-width: 350px) and (max-width: 400px) {
+@media (min-width: 350px) and (max-width: 450px) {
   header .botonera {
     height: auto;
   }

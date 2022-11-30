@@ -1,5 +1,5 @@
 header {
-    width: auto;
+    width: 100%;
         img {
             margin-bottom: 10px;
             width: 200px;
@@ -8,7 +8,7 @@ header {
         .botonera {
             background-color: bisque;
             border: 1px solid black;
-            height: 150px;;
+            height: 150px;
             border-radius: 8px;
             display: flex;
             flex-direction: row;

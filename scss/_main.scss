@@ -1,35 +1,32 @@
 .principal1 {
-    height: 650px;
+    height: auto;
+    width: 100;
+    background-color: beige;
     border: 1px solid black;
     border-radius: 4px;
-    background-image: url(https://apive.org/wp-content/uploads/2018/06/funcio%CC%81n-del-color-en-la-arquitectura.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
     h1{
         text-align: center;
-        text-decoration: underline;
     }
     ul {
         list-style-type: 0;
     }
         li {
             display: inline;
+            border: 1px solid;
+            border-radius: 4px;                
+            font-size: xx-large;                
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
             a {
                 display: inline;
                 text-decoration: none;
-                border: 1px solid;
-                font-size: xx-large;
-                border-radius: 4px;
-                color: black;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;	
-                
+                color: black; 	                
             }
 }
 
 .principal2 {
     height: 625px;
+    width: 100%;
     background-color: beige;
     display: flex;
     justify-content: flex-start;
@@ -62,13 +59,15 @@
 
 .principal3 {
     height: auto;
+    width: 100%;
     background-color: beige;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
-    align-items: center;  
-    
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 4px;     
     .imagen1 img {
         width: 400px;
         height: 300px;
@@ -119,11 +118,14 @@
 
 .principal4 {
     height: auto;
+    width: 100%;
     background-color: beige;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
+    border: 1px solid black;
+    border-radius: 4px;   
     img{
         width: 200px;
         height: 200px;
@@ -142,25 +144,29 @@
         font-weight: 600px;
         font-size: 20px;
         color:dimgray;
-        padding:5px;
+        padding:3px;
         background-color:floralwhite;
         border-color: #d8d8d8;
         border-width: 3px;
         border-style: solid;
         border-radius:35px;
         margin-left: 100px;
+        
+        
     }
 }
 
 .principal5 {
     height: auto;
+    width: 100%;
     background-color: beige;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
     align-items: center;  
-
+    border: 1px solid black;
+    border-radius: 4px;   
     .contacto {
         margin-bottom: 145px;
     }
