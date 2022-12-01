@@ -295,5 +295,15 @@ footer a {
     margin-left: 50px;
   }
 }
+@media (min-width: 350px) and (max-width: 550px) {
+  main .lista1 h1 {
+    font-size: x-large;
+  }
+}
+@media (min-width: 350px) and (max-width: 450px) {
+  .principal5 .linea2 {
+    width: 300px;
+  }
+}
 
 /*# sourceMappingURL=estilo.css.map */
