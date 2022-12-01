@@ -4,6 +4,7 @@ header {
             margin-bottom: 10px;
             width: 200px;
             height: 200px;
+            border: 0;
         }
         .botonera {
             background-color: bisque;
@@ -15,6 +16,10 @@ header {
             flex-wrap: nowrap;
             justify-content: space-between;
             align-items: center;
+            .logo {
+                text-decoration: none;
+            }
+            .enlace {
             ul {
                 padding: 10px;
                 list-style-type: 0;
@@ -22,7 +27,7 @@ header {
                 li {
                     display: inline;
                 }
-                    a {
+                   a {
                         display: inline-block;
                         text-decoration: none;
                         color: black;
@@ -31,9 +36,12 @@ header {
                         box-shadow: 3px 3px 4px rgba(0,0,0,0.5), -3px -3px 4px rgba(0,0,0,0.5);
                         margin-top: 15px;
                         margin-right: 10px;
-                    }                                                                  
-     }
+                    }   
+                         }                                                               
+                             }
+                                }
+
                
-}
+
 
 

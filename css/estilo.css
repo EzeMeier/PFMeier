@@ -28,6 +28,7 @@ header img {
   margin-bottom: 10px;
   width: 200px;
   height: 200px;
+  border: 0;
 }
 header .botonera {
   background-color: bisque;
@@ -40,14 +41,17 @@ header .botonera {
   justify-content: space-between;
   align-items: center;
 }
-header .botonera ul {
+header .botonera .logo {
+  text-decoration: none;
+}
+header .botonera .enlace ul {
   padding: 10px;
   list-style-type: 0;
 }
-header .botonera li {
+header .botonera .enlace li {
   display: inline;
 }
-header .botonera a {
+header .botonera .enlace a {
   display: inline-block;
   text-decoration: none;
   color: black;
@@ -60,7 +64,7 @@ header .botonera a {
 
 .principal1 {
   height: auto;
-  width: 100;
+  width: 100%;
   background-color: beige;
   border: 1px solid black;
   border-radius: 4px;
