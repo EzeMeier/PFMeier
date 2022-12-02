@@ -28,7 +28,6 @@ header img {
   margin-bottom: 10px;
   width: 200px;
   height: 200px;
-  border: 0;
 }
 header .botonera {
   background-color: bisque;
@@ -40,9 +39,6 @@ header .botonera {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-}
-header .botonera .logo {
-  text-decoration: none;
 }
 header .botonera .enlace ul {
   padding: 10px;
@@ -294,15 +290,18 @@ footer a {
     font-size: small;
     margin-left: 50px;
   }
+  .principal5 .linea2 {
+    width: 300px;
+  }
+}
+@media (min-width: 350px) and (max-width: 420px) {
+  main #carouselExampleControls {
+    height: 311px;
+  }
 }
 @media (min-width: 350px) and (max-width: 550px) {
   main .lista1 h1 {
     font-size: x-large;
-  }
-}
-@media (min-width: 350px) and (max-width: 450px) {
-  .principal5 .linea2 {
-    width: 300px;
   }
 }
 

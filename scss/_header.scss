@@ -4,7 +4,7 @@ header {
             margin-bottom: 10px;
             width: 200px;
             height: 200px;
-            border: 0;
+           
         }
         .botonera {
             background-color: bisque;
@@ -16,9 +16,7 @@ header {
             flex-wrap: nowrap;
             justify-content: space-between;
             align-items: center;
-            .logo {
-                text-decoration: none;
-            }
+        
             .enlace {
             ul {
                 padding: 10px;
