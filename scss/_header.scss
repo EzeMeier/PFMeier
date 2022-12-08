@@ -1,45 +1,44 @@
 header {
     width: 100%;
-        img {
-            margin-bottom: 10px;
-            width: 200px;
-            height: 200px;
-           
-        }
-        .botonera {
-            background-color: bisque;
-            border: 1px solid black;
-            height: 150px;
-            border-radius: 8px;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            align-items: center;
-        
-            .enlace {
+
+    img {
+        margin-bottom: 10px;
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .botonera {
+        background-color: bisque;
+        border: $borde;
+        height: 150px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .enlace {
             ul {
                 padding: 10px;
                 list-style-type: 0;
             }
-                li {
-                    display: inline;
-                }
-                   a {
-                        display: inline-block;
-                        text-decoration: none;
-                        color: black;
-                        border: 1px solid;
-                        font-size: large;
-                        box-shadow: 3px 3px 4px rgba(0,0,0,0.5), -3px -3px 4px rgba(0,0,0,0.5);
-                        margin-top: 15px;
-                        margin-right: 10px;
-                    }   
-                         }                                                               
-                             }
-                                }
 
-               
+            li {
+                display: inline;
+            }
 
-
-
+            a {
+                display: inline-block;
+                text-decoration: none;
+                color: black;
+                border: 1px solid;
+                font-size: large;
+                box-shadow: $sombra;
+                margin-top: 15px;
+                margin-right: 10px;
+            }
+        }
+    }
+}

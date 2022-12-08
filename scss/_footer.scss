@@ -1,29 +1,35 @@
 footer {
     width: auto;
-        .info{
-            height: auto;
-            background-color: bisque;
-            border: 1px solid black;
-            display: flex;
-            justify-content: center;
-            border-radius: 4px;
-        }
-            p{
-                text-align: center;
-                margin-top: 20px;
-            }
-                .redes img {
-                        margin-top: 20px;
-                        height: 25px;
-                    }
-                    ul {
-                        list-style-type: 0;
-                    }
-                        li {
-                            display: inline;
-                        }
-                            a {
-                                display: inline;
-                                text-decoration: none;
-                            }
+
+    .info {
+        height: auto;
+        background-color: bisque;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        border-radius: 4px;
+    }
+
+    p {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .redes img {
+        margin-top: 20px;
+        height: 25px;
+    }
+
+    ul {
+        list-style-type: 0;
+    }
+
+    li {
+        display: inline;
+    }
+
+    a {
+        display: inline;
+        text-decoration: none;
+    }
 }

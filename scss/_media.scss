@@ -1,35 +1,40 @@
-@media (min-width: 350px) and (max-width: 450px){
-    header{
-        .botonera{
+@media (min-width: 350px) and (max-width: 450px) {
+    header {
+        .botonera {
             height: auto;
-            }
         }
-    .principal4{
+    }
+
+    .principal4 {
         height: auto;
     }
-    .contacto{
+
+    .contacto {
         font-size: small;
         margin-left: 50px;
-    }   
-    .principal5{
-        .linea2{
-           width: 300px ;
+    }
+
+    .principal5 {
+        .linea2 {
+            width: 300px;
         }
     }
 }
-@media (min-width: 350px) and (max-width: 420px){
-    main{
-        #carouselExampleControls{
+
+@media (min-width: 350px) and (max-width: 420px) {
+    main {
+        #carouselExampleControls {
             height: 311px;
         }
     }
 }
-@media (min-width: 350px) and (max-width: 550px){
-    main{
-        .lista1{
-            h1{
-               font-size: x-large; 
+
+@media (min-width: 350px) and (max-width: 550px) {
+    main {
+        .lista1 {
+            h1 {
+                font-size: x-large;
             }
+        }
     }
-}
 }

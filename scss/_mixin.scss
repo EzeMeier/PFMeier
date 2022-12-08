@@ -1,8 +1,8 @@
-@mixin parrafos{
+@mixin parrafos {
     font-size: x-large;
     text-decoration: underline;
 }
 
-.principal4 h1{
+.principal4 h1 {
     @include parrafos;
 }
